@@ -1,0 +1,127 @@
+body{
+    background-color: black;
+}
+
+#site_name{
+    margin-top: 10px;
+    margin-left: -4%;
+text-align: center;
+font-size: 50px;
+font-family: "Audiowide", sans-serif;
+
+color: #f5e96b;
+color: #c9b068;
+
+}
+hr:not([size]) {
+    color: #c9b068;
+    color: #9e7333;
+    height: 10px;
+}
+.navbar{
+  background-color: #FFD700;
+}
+#bookmark_btn{
+font-size: larger;
+color: black;
+
+}
+#offcanvasRight{
+  background-color: yellow;
+  height: fit-content;
+}
+#offcanvasRightLabel{
+  font-family: "Audiowide", sans-serif;
+  font-weight: bolder;
+}
+#bookmarked_words_element{
+  font-family: 'Architects Daughter';
+  text-transform: uppercase; 
+}
+#bookmarked_words_element button{
+  float: right;
+}
+.quote_box{
+text-align: center;
+color: goldenrod;
+background-color: black;
+}
+#quote{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 18px;
+}
+#author{
+margin-right: 2%;
+font-size: 15px;
+font-weight: bold;
+    font-style: italic; 
+}
+
+#search_word{
+    background-color:black;
+    color: gold;
+
+    
+}
+#search_word:focus{
+ 
+    border: 1px solid black;
+}
+.toast-header{
+    font-size: larger;
+    background-color: gold;
+    color: black;
+}
+.toast-body{
+    font-size: larger;
+    background-color: #c9b068;
+    background-color: cornsilk;
+    color: black;
+}
+#show_result{
+    background-color: gold;
+    display: none;
+    
+}#recent_search_title{
+  color: gold;
+  display: none;
+}
+#bookmark_icon{
+    float: right;
+    margin-top: -4.5%;
+    background-color: gold;
+    color: black;
+    border: 2px solid gold;
+}
+#card_title{
+font-size: 20px;
+text-transform: capitalize;
+font-weight: bolder;
+}
+#audio_btn{
+    background-color: gold;
+    color: black;
+    border: 2px solid gold;
+    float: right;
+    margin-top: -8%;
+    
+  
+}
+/***********Recent search***/
+.recent_word{
+    width: fit-content;
+   height: fit-content;
+   background-color: black;
+   color: goldenrod;
+   border: 2px solid yellow;
+}
+#recent_popover{
+  background-color: black;
+  color: goldenrod;
+}
+.popover{
+  background: gold;
+  font-weight: 700;
+  font-size: large;
+}
